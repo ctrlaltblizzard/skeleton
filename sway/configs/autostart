@@ -1,0 +1,14 @@
+#== Authentication Agent - not necessary for TWMs, but why not use it
+exec /usr/bin/lxpolkit
+
+#== Notification Center
+exec swaync
+
+#== GTK Stuff
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+
+exec hash dbus-update-activation-environment 2>/dev/null && \
+      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+
+#== Clipboard Manager
+exec wl-paste -t text --watch clipman store --no-persist

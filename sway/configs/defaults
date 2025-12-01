@@ -1,0 +1,23 @@
+#== Navigation Keys - like VIM
+set $up     j
+set $down   k
+set $left   h
+set $right  l
+
+#== Set default - Terminal
+set $term foot
+
+#== Set default - Application Launcher
+set $menu tofi-drun | xargs swaymsg exec --
+
+#== Set default - Browser
+set $browser firefox-esr
+
+#== Set default - Terminal
+set $fm thunar
+
+#== Set modifier key - "Win Key"
+floating_modifier $mod normal
+
+#== Set Wallpaper
+output * bg $HOME/Pictures/Cosmonaut.jpg fill

@@ -1,0 +1,42 @@
+#== Reload configuration file
+  bindsym $mod+t reload
+
+#== Terminate focused window
+  bindsym $mod+q kill
+
+#== Launch terminal
+  bindsym $mod+Return exec $term
+
+#== Launch application launcher
+  bindsym $mod+d exec $menu
+
+#== Launch browser
+  bindsym $mod+w exec $browser
+
+#== Launch file manager
+  bindsym $mod+e exec $fm
+
+#== Launch SwayNC
+  bindsym $mod+z exec swaync-client -t -sw
+
+#== Redshift Keybind - Eye Care
+  bindsym $mod+Shift+q exec wlsunset -T 4001
+
+#== Screenshot Keybinds
+
+#== Copy and Save Output
+  bindsym Ctrl+Print exec grimshot --notify copy output
+  bindsym $mod+Print exec grimshot --notify save output
+
+#== Copy Area
+  bindsym $mod+Shift+s exec grimshot --notify copy area
+
+#== Adjust volume
+  bindsym XF86AudioRaiseVolume exec pamixer -ui 5
+  bindsym XF86AudioLowerVolume exec pamixer -ud 5
+
+#== Adjust brightness
+  bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+  bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+
+

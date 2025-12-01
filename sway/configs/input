@@ -1,0 +1,9 @@
+#== Hide font for window titlebar
+font pango:monospace 0.11
+
+#== Input Configuration
+
+input * {
+  repeat_rate 50
+  repeat_delay 240
+}

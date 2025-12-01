@@ -1,0 +1,16 @@
+#== Set cursor theme 
+
+seat seat0 xcursor_theme buuf-cursor-original-24 24
+
+#== Launch Waybar
+
+bar {
+  swaybar_command waybar
+}
+
+#== Set border colors
+
+client.focused            #a6e3a1 #a6e3a1 #000000 #a6e3a1 #a6e3a1
+client.focused_inactive   #74c7ec #74c7ec #000000 #74c7ec #74c7ec
+client.unfocused          #f38ba8 #f38ba8 #000000 #f38ba8 #f38ba8
+

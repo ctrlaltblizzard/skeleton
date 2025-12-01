@@ -1,0 +1,8 @@
+# == Bind the default key to "Windows Key" for global keybind.
+
+set $mod Mod4
+
+# == Source the configuration files on 'configs' folder.
+# == Keeping them separate makes it cleaner and organized, for me at least.
+
+include $HOME/.config/sway/configs/*

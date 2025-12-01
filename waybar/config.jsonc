@@ -1,0 +1,114 @@
+// too lazy to organize for now
+
+{
+  "layer": "top", // Waybar at top layer
+  "position": "bottom", // Waybar position (top|bottom|left|right)
+  "height": 20,
+  "margin": "0 0 0 0",
+
+// Add Module Contents
+
+  "modules-left": [
+    "sway/window",
+    "tray",
+    "sway/mode",
+  ],
+
+  "modules-center": [
+    "sway/workspaces"
+  ],
+
+  "modules-right": [
+    "battery",
+    "backlight",
+    "pulseaudio",
+    "clock",
+    "network",
+    "tray"
+  ],
+
+  // Modules configuration
+
+  "sway/workspaces": {
+	"format": "{name}",
+	"disable-scroll": true,
+	"disable-click": true,
+	"format-icons": {
+      "1": "  ",       // Terminal
+      "2": "  ",       // Browser
+      "3": "  ",       // File Manager
+      "4": " 󱞎 ",       // Text Editor
+      "5": "  ",       // Screen Record
+      "6": "  ",       // Undefined
+      "7": "  ",       // VIM
+      "8": "  ",       // Undefined
+      "9": "  ",       // Undefined
+      "10": "  "       // GTK
+  },
+},
+
+"battery": {
+        "format": "battery: {capacity}%",
+        "format-charging": "charging: {capacity}%",
+        "format-plugged": "plugged: {capacity}%",
+	"tooltip": false
+    },
+
+    "sway/mode": {
+    "format": "<span style=\"italic\">{}</span>"
+  },
+
+  "sway/window": {
+    "format": "{}",
+    "tooltip": false,
+    "max-length": 95,
+    "rewrite": {
+        "": "If it works, don't touch it.",
+    },
+  },
+
+  "tray": {
+    "icon-size": 18,
+    "spacing": 5,
+    "tooltip": false
+  },
+
+  "clock": {
+    "tooltip-format": "{}",
+    "format": "{:%I:%M %p}", //12 hour format
+    "interval": 1,
+    "timezone": "Asia/Manila",
+    "tooltip": false
+  },
+
+  "backlight": {
+    "format": "brightness: {percent: >1}%",
+    "format-icons": [" ", " "],
+    "on-scroll-up": "brightnessctl set +5%",
+    "on-scroll-down": "brightnessctl set 5%-",
+    "tooltip": false
+  },
+
+  "network": {
+    "format": "wifi",
+    "format-wifi": "connected",
+    "format-ethernet": "wired",
+    "format-disconnected": "no internet",
+    "tooltip": false
+  },
+
+  "pulseaudio": {
+    "scroll-step": 1,
+    "format": "volume: {volume: >1}%",
+    "format-muted": "muted",
+    "tooltip": false,
+    "format-icons": {
+        "default": [" ", " "]
+    },
+
+    "on-click": "pavucontrol",
+    "on-scroll-up": "pamixer -ui 2",
+    "on-scroll-down": "pamixer -ud 2"
+  }, 
+
+}
