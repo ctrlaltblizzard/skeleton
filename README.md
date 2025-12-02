@@ -73,6 +73,10 @@ Fonts used:
 # Sources used: 
 > All credits goes to the rightful owners.
 
+[Debian Wiki](https://wiki.debian.org/FrontPage)
+
+[Debian Packages](https://www.debian.org/distrib/packages)
+
 [Debian Sway Configuration](https://github.com/agung-satria/debian-sway/)
 
 [Brave Debloat](https://github.com/MulesGaming/brave-debloatinator)
