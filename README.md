@@ -17,6 +17,7 @@ skeleton
 ├── bash-things
 │   ├── .bash_aliases
 │   ├── .bashrc
+│   ├── pkgs-install.sh
 │   └── README
 ├── brave-policies
 │   ├── README
