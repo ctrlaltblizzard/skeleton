@@ -20,4 +20,4 @@ set $fm thunar
 floating_modifier $mod normal
 
 #== Set Wallpaper
-output * bg $HOME/Pictures/102.jpg fill
+output * bg $HOME/.config/sway/102.jpg fill

@@ -10,6 +10,12 @@
 #== Launch application launcher
   bindsym $mod+d exec $menu
 
+#== Launch powermenu launcher
+  bindsym $mod+Shift+e exec $HOME/.config/tofi/powermenu.sh
+
+# == Launch color picker
+  bindsym $mod+Shift+q exec wl-color-picker
+  
 #== Launch browser
   bindsym $mod+w exec $browser
 
@@ -18,9 +24,6 @@
 
 #== Launch SwayNC
   bindsym $mod+z exec swaync-client -t -sw
-
-#== Redshift Keybind - Eye Care
-  bindsym $mod+Shift+q exec wlsunset -T 4001
 
 #== Screenshot Keybinds
 

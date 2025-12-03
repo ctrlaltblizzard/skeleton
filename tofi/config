@@ -1,18 +1,26 @@
 terminal = foot
 multi-instance = false
+
+# Position & size
 width = 100%
 height = 100%
+
 border-width = 0
 outline-width = 0
-padding-left = 2% 
-padding-top = 8%
+padding-left = 2%
+padding-top = 5%
+
 result-spacing = 25
 num-results = 13
+
 font = FantasqueSansMNerdFontMono
-background-color = #121212D9 
+font-size = 18
+
+background-color = #121212D9
 selection-color = #6f7375
+
 fuzzy-match = true
-drun-launch = false
-font-size = 16
 history = true
+
+drun-launch = false
 prompt-text = "Search: "

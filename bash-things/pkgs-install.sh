@@ -19,9 +19,7 @@ pkgs_audio="pamixer pulseaudio alsa-utils pavucontrol pulsemixer"
 pkgs_fonts="fonts-font-awesome fonts-noto fonts-noto-color-emoji"
 
 pkgs_misc="fastfetch curl acpi acpid thermald intel-microcode \
-		mpv mupdf mirage hx lxpolkit mousepad arduino aptitude"
-
-pkgs_no_recs="sddm"
+		mpv mupdf mirage lxpolkit mousepad arduino aptitude tree vim"
 
 # Install packages
 sudo apt install -y $pkgs_main \
@@ -31,4 +29,3 @@ sudo apt install -y $pkgs_main \
 		$pkgs_fonts \
 		$pkgs_misc
 
-sudo apt install --no-install-recommends -y $pkgs_no_recs

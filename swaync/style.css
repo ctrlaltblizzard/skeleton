@@ -1,7 +1,7 @@
 * {
   all: unset;
   font-size: 14px;
-  font-family: "cozette";
+  font-family: "IosevkaTermNerdFontMono";
   transition: 200ms;
 }
 
@@ -17,12 +17,12 @@ scale trough {
   margin: 0rem 1rem;
   min-height: 8px;
   min-width: 70px;
-  border-radius: 12.6px;
+  border-radius: 0px;
 }
 
 trough slider {
   margin: -10px;
-  border-radius: 12.6px;
+  border-radius: 0px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
   transition: all 0.2s ease;
   background-color: #89b4fa;
@@ -39,7 +39,7 @@ trough {
 /* notifications */
 .notification-background {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8), inset 0 0 0 1px #45475a;
-  border-radius: 12.6px;
+  border-radius: 0px;
   margin: 18px;
   background: #181825;
   color: #cdd6f4;
@@ -48,7 +48,7 @@ trough {
 
 .notification-background .notification {
   padding: 7px;
-  border-radius: 12.6px;
+  border-radius: 0px;
 }
 
 .notification-background .notification.critical {
@@ -83,7 +83,7 @@ trough {
 .notification-background .close-button {
   margin: 7px;
   padding: 2px;
-  border-radius: 6.3px;
+  border-radius: 0px;
   color: #1e1e2e;
   background-color: #f38ba8;
 }
@@ -97,7 +97,7 @@ trough {
 }
 
 .notification .notification-action {
-  border-radius: 7px;
+  border-radius: 0px;
   color: #cdd6f4;
   box-shadow: inset 0 0 0 1px #45475a;
   margin: 4px;
@@ -129,27 +129,27 @@ trough {
 .notification progress,
 .notification trough,
 .notification progressbar {
-  border-radius: 12.6px;
+  border-radius: 0px;
   padding: 3px 0;
 }
 
 /* control center */
 .control-center {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8), inset 0 0 0 1px #313244;
-  border-radius: 12.6px;
+  border-radius: 0px;
   background-color: #1e1e2e;
   color: #cdd6f4;
   padding: 14px;
 }
 
 .control-center .notification-background {
-  border-radius: 7px;
+  border-radius: 0px;
   box-shadow: inset 0 0 0 1px #45475a;
   margin: 4px 10px;
 }
 
 .control-center .notification-background .notification {
-  border-radius: 7px;
+  border-radius: 0px;
 }
 
 .control-center .notification-background .notification.low {
@@ -162,7 +162,7 @@ trough {
 }
 
 .control-center .widget-title button {
-  border-radius: 7px;
+  border-radius: 0px;
   color: #cdd6f4;
   background-color: #313244;
   box-shadow: inset 0 0 0 1px #45475a;
@@ -197,13 +197,13 @@ scrollbar trough {
 /* dnd */
 .widget-dnd {
   margin-top: 5px;
-  border-radius: 8px;
+  border-radius: 0px;
   font-size: 1.1rem;
 }
 
 .widget-dnd > switch {
   font-size: initial;
-  border-radius: 8px;
+  border-radius: 0px;
   background: #313244;
   box-shadow: none;
 }
@@ -214,7 +214,7 @@ scrollbar trough {
 
 .widget-dnd > switch slider {
   background: #45475a;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 .widget-menubar > box > .menu-button-bar > button > label {

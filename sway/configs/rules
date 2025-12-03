@@ -6,17 +6,21 @@
 
 # Workspace 1 - Terminal
 
-assign [app_id="foot"] 1
-for_window [app_id="foot"] focus
+assign [app_id="Terminal"] 1
+for_window [app_id="Terminal"] focus
 
 # Workspace 2 - Browser
 
-assign [app_id="firefox"] 2
-for_window [app_id="firefox"] focus
+assign [app_id="google-chrome"] 2
+for_window [app_id="google-chrome"] focus
 
 # Workspace 3 - File Manager
 assign [app_id=thunar] 3
 for_window [app_id=thunar] focus
+
+# Workspace 4 - Arduino 
+assign [class="processing-app-Base"] 4
+for_window [class="processing-app-Base"] floating enable
 
 #== If using PiP
 for_window [title="Picture-in-picture"] floating enable
