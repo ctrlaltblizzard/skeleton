@@ -43,8 +43,8 @@
   bindsym $mod+Ctrl+Right resize grow width 5 px or 5 ppt
 
   # \\ Remove window padding | Set border thickness
-  default_border pixel 4px
+  default_border pixel 2px
 
   # \\ Window Gaps
-  gaps inner 4
-  gaps outer 2
+  #gaps inner 4
+  #gaps outer 2

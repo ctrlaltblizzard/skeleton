@@ -10,7 +10,7 @@ bar {
 
 #== Set border colors
 
-client.focused            #a6e3a1 #a6e3a1 #000000 #a6e3a1 #a6e3a1
-client.focused_inactive   #74c7ec #74c7ec #000000 #74c7ec #74c7ec
-client.unfocused          #f38ba8 #f38ba8 #000000 #f38ba8 #f38ba8
+client.focused            #ADD8E6 #ADD8E6 #000000 #ADD8E6 #ADD8E6
+client.focused_inactive   #40B5AD #40B5AD #000000 #40B5AD #40B5AD
+client.unfocused          #6F8FAF #6F8FAF #000000 #6F8FAF #6F8FAF
 

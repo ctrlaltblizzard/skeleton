@@ -20,4 +20,4 @@ set $fm thunar
 floating_modifier $mod normal
 
 #== Set Wallpaper
-output * bg $HOME/Pictures/Cosmonaut.jpg fill
+output * bg #000000 solid_color
