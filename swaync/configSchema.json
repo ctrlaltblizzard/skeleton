@@ -302,7 +302,7 @@
     "widgets": {
       "type": "array",
       "description": "Which order and which widgets to display. If the \"notifications\" widget isn't specified, it will be placed at the bottom.",
-      "default": ["inhibitors", "title", "dnd", "notifications"],
+      "default": ["title", "dnd", "notifications"],
       "items": {
         "type": "string",
         "$comment": "Sadly can't use regex and enums at the same time. Fix in the future?",
@@ -339,10 +339,6 @@
         },
         "^backlight(#[a-zA-Z0-9_-]{1,}){0,1}?$": {
           "$ref": "#/widgets/backlight"
-        },
-        "^inhibitors(#[a-zA-Z0-9_-]{1,}){0,1}?$": {
-          "$comment": "References the widget structure from \"widgets\" below",
-          "$ref": "#/widgets/inhibitors"
         }
       }
     }
