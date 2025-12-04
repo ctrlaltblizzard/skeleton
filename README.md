@@ -65,6 +65,9 @@ skeleton
 │   ├── color.css
 │   ├── config.jsonc
 │   └── style.css
+├── wofi
+│   ├── config
+│   └── style.css
 └── README..md
 ```
 
