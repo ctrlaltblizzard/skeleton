@@ -3,9 +3,9 @@
     "position": "top",
     "height": 27,
 
-    "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["network", "battery", "clock", "tray"],
+    "modules-left": ["sway/workspaces", "sway/window"],
+    "modules-center": [],
+    "modules-right": ["network", "backlight", "pulseaudio", "clock", "tray"],
 
     "sway/workspaces": {
         "disable-scroll": true,
@@ -26,8 +26,7 @@
 
     "sway/window": {
         "format": "{}",
-        "tooltip": false,
-        "max-length": 130
+        "tooltip": false
     },
 
     "network": {
@@ -39,12 +38,12 @@
 
     "backlight": {
         "device": "intel_backlight",
-        "format": "brightness {percent}%",
+        "format": "| brightness {percent}%",
         "interval": 60
     },
 
     "pulseaudio": {
-        "format": "volume {volume}%",
+        "format": "| volume: {volume}% |",
         "format-muted": "muted",
         "interval": 60,
         "tooltip": false

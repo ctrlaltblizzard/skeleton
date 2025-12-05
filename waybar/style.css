@@ -5,9 +5,10 @@
 }
 
 
-window#waybar { 
-    background-color: #225877; 
-    color: #ffffff;    
+window#waybar {
+    background-color: #225877;
+    color: #ffffff;
+    padding: 0px 2px 0px 0px;
 }
 
 
@@ -19,7 +20,7 @@ window#waybar {
 
 .modules-right {
 	background-color: #323232;
-	padding: 0px 5px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 #workspaces {
@@ -66,11 +67,18 @@ window#waybar.empty {
         color: #ffffff;
 }
 
+#backlight {
+	padding: 0px 8px 0px 8px;
+}
 
-#network, #battery {
+#network {
+	padding: 0px 0px 0px 8px;
+}
+
+#battery {
     padding: 0px 8px 0px 8px;
 }
-    
+
 
 #clock {
 	margin: 0px 8px 0px 8px;
